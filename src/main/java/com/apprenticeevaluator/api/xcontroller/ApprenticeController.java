@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/")
 public class ApprenticeController {
     ApprenticeService apprenticeService;
